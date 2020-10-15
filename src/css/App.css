@@ -36,6 +36,36 @@
     transform: rotate(360deg);
   }
 }
-.App-cats{
-  width:150px;
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: blue;
 }
+.page_404Div{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.page_404 {
+  width: 250px;
+}
+
+/*Home*/
+.home{
+  background-color: bisque;
+  height: calc(100vh - 115px);
+}
+/*About Page*/
+.about-page{
+  background-color: bisque;
+  height: calc(100vh - 115px);
+}
+/*Users Page*/
+.users-page{
+  background-color: bisque;
+  height: calc(100vh - 115px);
+}
+
+
+

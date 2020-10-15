@@ -1,8 +1,11 @@
 import React from 'react';
-import logo from '../../src/img/logo.svg';
 
 function Home() {
-  return <h2>Home</h2>;
+  return (
+  <div className="home">
+  <h2>Home</h2>
+  </div>
+  )
 }
 
 export default Home;

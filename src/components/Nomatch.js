@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from '../../src/img/logo.svg';
+import page_404 from '../../src/img/page_404.png';
 import {
-  BrowserRouter as Router,
   useLocation
 } from "react-router-dom";
 
@@ -11,8 +10,11 @@ function Nomatch() {
   return (
     <div>
       <h2>
-        No match for <code>{location.pathname}</code>
+          Упс.... Страницы <code>{location.pathname} не найдено.</code>
       </h2>
+      <div className="page_404Div">
+      <img src={page_404} className="page_404" alt='page 404'/>
+      </div>
     </div>
   );
 }
